@@ -12,8 +12,8 @@ echo "--------------------------------------------------------------------------
 echo "RUN THIS AS ROOT (sudo ./install.sh)"
 echo "This scripts installs RPi-Fan-Driver files in your system"
 echo "Before you continue make sure that previous steps mentioned in the instructions are complete"
-echo "This includes calibrating minimum fan speed, GPIO pin used, fan speed and temps steps..."
-echo "If you haven't done this step do it now, else continue"
+echo "This includes calibrating minimum fan speed, GPIO pin used, fan speed, temps steps..."
+echo "If you haven't done these steps do them now, else, continue"
 echo "Do you want to continue? [Y/N]"
 echo "--------------------------------------------------------------------------------------------"
 echo
