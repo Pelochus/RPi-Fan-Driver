@@ -22,8 +22,8 @@ read continue
 
 if [ $continue == 'Y' ] || [ $continue == 'y' ]; then
 	sudo apt install rpi.gpio -y
-	sudo mv ./rpi-fan-code/fan-control.service /lib/systemd/system
-	sudo mv ./rpi-fan-code/rpi-fan-driver.py /usr/bin/rpi-fan-driver.py
+	sudo cp ./rpi-fan-code/fan-control.service /lib/systemd/system
+	sudo cp ./rpi-fan-code/rpi-fan-driver.py /usr/bin/rpi-fan-driver.py
 	sudo systemctl enable fan-control.service
 	echo "-------------------------------------------"
 	echo "Finished. Changes will be applied at reboot"
