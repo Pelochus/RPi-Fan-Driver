@@ -67,12 +67,11 @@ try:
                 if (fanSpeed != fanSpeedOld and (fanSpeed >= FAN_MIN or fanSpeed == 0)):
                     fan.ChangeDutyCycle(fanSpeed)
                     fanSpeedOld = fanSpeed
-                    
+
             cpuTempOld = cpuTemp
 
         # Wait until next refresh
         time.sleep(WAIT_TIME)
-
 
 # If a keyboard interrupt occurs (CTRL + C), the GPIO is set to 0 and the program exits.
 except KeyboardInterrupt:
