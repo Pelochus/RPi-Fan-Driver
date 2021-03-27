@@ -1,0 +1,12 @@
+[Unit]
+Description=PWM Fan Control
+After=mediacenter.service
+
+[Service]
+Type=simple
+User=root
+ExecStart= /usr/bin/python /home/osmc/Scripts/fan_ctrl.py
+Restart=always
+
+[Install]
+WantedBy=default.target
