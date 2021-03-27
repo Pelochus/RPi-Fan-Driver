@@ -1,0 +1,12 @@
+[Unit]
+Description=RPi Fan Driver using PWM signals from GPIO Pins
+After=mediacenter.service
+
+[Service]
+Type=simple
+User=root
+ExecStart= /usr/bin/python /usr/bin/rpi-fan-driver/rpi-fan-driver.py
+Restart=always
+
+[Install]
+WantedBy=default.target
