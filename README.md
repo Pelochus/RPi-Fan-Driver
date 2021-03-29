@@ -10,9 +10,9 @@ Just a little bunch of things:
 - A PN2222A (or similar transistor)
 - A common diode
 - 1K resistor
-- A bunch of jumper wires (or common wires for soldering)
+- A bunch of jumper wires (or common wires for soldering them)
 - Soldering iron
-- The PCB in this repo (I ordered it at [JLCPCB](jlcpcb.com)
+- The PCB in this repo (I ordered it at [JLCPCB](jlcpcb.com))
 
 ## Instructions
 
