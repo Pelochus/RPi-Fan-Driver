@@ -15,6 +15,9 @@ Just a little bunch of things:
 - The PCB in this repo (I ordered it at [JLCPCB](https://jlcpcb.com))
 
 ## Instructions
+First of all I recommend trying this build on a breadboard (see this [link](https://www.instructables.com/PWM-Regulated-Fan-Based-on-CPU-Temperature-for-Ras/) for extra information about building this on a breadboard)
+
+
 
 ## Credits
 This [Instructables article](https://www.instructables.com/PWM-Regulated-Fan-Based-on-CPU-Temperature-for-Ras/) for providing me the electronics diagram and code to make this
