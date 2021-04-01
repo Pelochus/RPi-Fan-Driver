@@ -10,7 +10,7 @@ Just a little bunch of things:
 - A PN2222A (or similar transistor)
 - A common diode that supports at least 5V and around 300-500 mA
 - 1K resistor
-- A bunch of jumper wires (or common wires for soldering them)
+- A bunch of jumper wires (or solder any wire to the RPi and/or PCB)
 - Soldering iron
 - The PCB in this repo (I ordered it at [JLCPCB](https://jlcpcb.com))
 
