@@ -23,7 +23,13 @@ Just a little bunch of things:
 - Now run `install.sh` as root `sudo ./install.sh`. This will only work with distros that use apt (Debian-based) and have bash. If you don't have apt you can manually install `rpi.gpio` Python library manually
 - Reboot
 - Make sure is working properly. Try to run any heavy task on the CPU, like a benchmark. The fan should start spinning at a certain temperature (default 45ºC) and keep increasing if temp increases
-- N
+- Now, if everything works properly, solder all the components to the PCB (diode, transistor and resistor)
+- Finally connect the wires to their corresponding pins in your RPi and holes in PCB. Even though I soldered the wires to the RPi, I suggest using as much as possible jumper wires
+- Put the PCB in a safe place without making contact to the RPi board
+- Optional: Print the .stl in this repo to protect lower part of the PCB (useful for previous step)
+- Done!
+
+## Pictures
 
 ## Credits
 This [Instructables article](https://www.instructables.com/PWM-Regulated-Fan-Based-on-CPU-Temperature-for-Ras/) for providing me the electronics diagram and code to make this
