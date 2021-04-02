@@ -30,6 +30,7 @@ Just a little bunch of things:
 - Done!
 
 ## Pictures
+#### Below some pictures of my build
 
 ![Build1](images/build1.jpg)
 
@@ -39,7 +40,11 @@ Just a little bunch of things:
 
 ![Build4](images/build4.jpg)
 
+#### Schematics of circuit
+
 ![Schematics](images/schematics.png)
+
+#### PCB in EasyEDA
 
 ![PCB](images/pcb.png)
 
