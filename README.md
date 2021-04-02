@@ -32,10 +32,15 @@ Just a little bunch of things:
 ## Pictures
 
 ![Build1](images/build1.jpg)
+
 ![Build2](images/build2.jpg)
+
 ![Build3](images/build3.jpg)
+
 ![Build4](images/build4.jpg)
+
 ![Schematics](images/schematics.png)
+
 ![PCB](images/pcb.png)
 
 ## Credits
