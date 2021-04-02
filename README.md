@@ -18,7 +18,7 @@ Just a little bunch of things:
 - First of all I recommend trying this build on a breadboard (see this [link](https://www.instructables.com/PWM-Regulated-Fan-Based-on-CPU-Temperature-for-Ras/) for extra information about building this on a breadboard)
 - Once inserted all components properly on breadboard download the code from this repo with `git clone https://github.com/Pelochus/RPi-Fan-Driver.git` or download directly from `Releases` tab in github.com
 - Edit both `minspeed-calibration.py` and `rpi-fan-driver.py` with your preferred GPIO pin (Note: BCM numbering is used)
-- Optional: Run `minspeed-calibration.py` and insert values until you find your minimum speed for your fan (should be around 20-40%). **Note: Needs `rpi.gpio library` already installed**
+- Optional: Run `minspeed-calibration.py` and insert values until you find your minimum speed for your fan (should be around 20-40%, default is 50%). **Note: Needs `rpi.gpio library` already installed**
 - Optional: change tempSteps and speedSteps in `rpi-fan-driver.py`
 - Now run `install.sh` as root `sudo ./install.sh`. This will only work with distros that use apt (Debian-based) and have bash. If you don't have apt you can manually install `rpi.gpio` Python library manually
 - Reboot
@@ -30,6 +30,13 @@ Just a little bunch of things:
 - Done!
 
 ## Pictures
+
+![Build1](images/build1.jpg)
+![Build2](images/build2.jpg)
+![Build3](images/build3.jpg)
+![Build4](images/build4.jpg)
+![Schematics](images/schematics.png)
+![PCB](images/pcb.png)
 
 ## Credits
 This [Instructables article](https://www.instructables.com/PWM-Regulated-Fan-Based-on-CPU-Temperature-for-Ras/) for providing me the electronics diagram and code to make this
