@@ -10,7 +10,7 @@ import time
 import sys
 
 # Configuration
-FAN_PIN = 21  # Pin used. Change if not using pin 21. BCM numbering is used
+FAN_PIN = 22  # Pin used. Change if not using pin 21. BCM numbering is used
 WAIT_TIME = 1  # [s] Time to wait between each refresh
 FAN_MIN = 50  # [%] Fan minimum speed.
 PWM_FREQ = 25  # [Hz] Change this value if fan has strange behavior
