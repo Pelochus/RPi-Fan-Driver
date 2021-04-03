@@ -10,7 +10,7 @@ import time
 import sys
 
 # Change FAN_PIN if different GPIO is used
-FAN_PIN = 21
+FAN_PIN = 22
 PWM_FREQ = 25
 
 GPIO.setmode(GPIO.BCM)
